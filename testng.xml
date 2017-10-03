@@ -1,0 +1,12 @@
+<suite name="Test - Siute" data-provider-thread-count="3">
+    <listeners>
+        <listener class-name="org.uncommons.reportng.HTMLReporter"/>
+        <listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>
+    </listeners>
+
+    <test name="test login">
+        <classes>
+            <class name="HomePageTest"/>
+        </classes>
+    </test>
+</suite>
